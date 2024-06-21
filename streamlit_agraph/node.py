@@ -4,6 +4,7 @@ class Node:
               id,
               title=None, # displayed if hovered
               label=None, # displayed inside the node
+              link=None, # link to open if double clicked
               color=None,
               shape="dot",
               size=25,
