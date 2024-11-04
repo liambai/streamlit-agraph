@@ -19,6 +19,7 @@ def load_graph_data():
             for node in sub_graph["children"]:
                 nodes.append(Node(id=node["hero"],
                                   title=node["link"],
+                                  link=node["link"],
                                   shape="circularImage",
                                   image=node["img"],
                                   group=sub_graph["name"],
